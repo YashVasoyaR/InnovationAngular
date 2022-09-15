@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>Angularpr</title>
+    <title>Innovation Window</title>
     <base href="/" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" type="image/x-icon" href="favicon.ico" />
@@ -32,8 +32,10 @@
         --light-white: #f7f7f7;
         --dark-gray: #8e98a1;
       }
-
-      a{
+      .map-container {
+        width: 100% !important;
+      }
+      a {
         text-decoration: none !important;
       }
       .navbar-nav .nav-item a {
@@ -1299,6 +1301,12 @@
         }
       }
     </style>
+
+    <script
+      async
+      defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyATji47Pl9QaRpMWiKo1fUEA5010033Egg&callback=initMap"
+    ></script>
   </head>
   <body>
     <app-root></app-root>

@@ -19,6 +19,7 @@ import { LoginComponent } from './login/login.component';
 import { ProductDetailComponent } from './product-detail/product-detail.component';
 import { RegisterComponent } from './register/register.component';
 import { WishlistComponent } from './wishlist/wishlist.component';
+import { GoogleMapsModule } from '@angular/google-maps';
 
 @NgModule({
   declarations: [
@@ -38,11 +39,12 @@ import { WishlistComponent } from './wishlist/wishlist.component';
     LoginComponent,
     ProductDetailComponent,
     RegisterComponent,
-    WishlistComponent
+    WishlistComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    GoogleMapsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
